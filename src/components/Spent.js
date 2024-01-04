@@ -9,7 +9,7 @@ const Spent = () => {
 
     return (
         <div className='alert alert-primary'>
-            <span>Spent: {Currency} {totalSpent}</span>
+            <span>Spent so far: {Currency} {totalSpent}</span>
         </div>
     );
 };

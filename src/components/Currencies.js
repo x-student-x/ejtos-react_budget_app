@@ -14,7 +14,7 @@ const Currencies = () => {
     
 
   return (
-        <div className="alert alert-secondary dropdownContainer"> Currency {
+        <div className="alert alert-secondary dropdownContainer">Currency ({
           <select name="currency" id="currency" value={Currency}
             onChange={event=>changeCurrency(event.target.value)}
             className="dropdown"
@@ -24,7 +24,7 @@ const Currencies = () => {
               <option className="dropdown-options" value="€">€ Euro</option>
               <option className="dropdown-options" value="₹">₹ Ruppee</option>
           </select>	
-        }	
+        })
       </div>
     );
 };
